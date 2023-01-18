@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogoActivity">
+
+  <TextView
+      android:id="@+id/tv_nomeDoLivro5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Imagem livro:"
+      android:textColor="#3B595A"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.135"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.541" />
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:navigationIcon="?attr/homeAsUpIndicator"
+      />
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Cadastrar Livro"
+      android:textAlignment="center"
+      android:textColor="#073033"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.500"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.04" />
+
+  <Button
+      android:id="@+id/buttonLivros"
+      android:layout_width="241dp"
+      android:layout_height="43dp"
+      android:background="@drawable/roundstyle"
+      android:backgroundTint="#0A3B3D"
+      android:text="CADASTRAR"
+      android:textColor="#E4E4E4"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.700"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <TextView
+      android:id="@+id/tv_autor"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Autor:"
+      android:textColor="#3B595A"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.236"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.256" />
+
+  <TextView
+      android:id="@+id/tv_nomeDoLivro3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Páginas:"
+      android:textColor="#3B595A"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.194"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.328" />
+
+  <TextView
+      android:id="@+id/tv_nomeDoLivro2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Editora:"
+      android:textColor="#3B595A"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.212"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.397" />
+
+  <TextView
+      android:id="@+id/tv_nomeDoLivro4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Quantidade:"
+      android:textColor="#3B595A"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.135"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.462" />
+
+  <EditText
+      android:id="@+id/et_nomeDoLivro"
+      android:layout_width="215dp"
+      android:layout_height="38dp"
+      android:ems="10"
+      android:hint="Livro"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.76"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.17"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <TextView
+      android:id="@+id/tv_nomeDoLivro"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Nome do livro:"
+      android:textColor="#3B595A"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.09"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.179" />
+
+  <EditText
+      android:id="@+id/et_autor"
+      android:layout_width="215dp"
+      android:layout_height="38dp"
+      android:ems="10"
+      android:hint="Autor"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.76"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.249"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <EditText
+      android:id="@+id/et_paginas"
+      android:layout_width="215dp"
+      android:layout_height="38dp"
+      android:ems="10"
+      android:hint="Páginas"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.76"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.323"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <EditText
+      android:id="@+id/et_editora"
+      android:layout_width="215dp"
+      android:layout_height="38dp"
+      android:ems="10"
+      android:hint="Editora"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.76"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.396"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <EditText
+      android:id="@+id/et_quantidade"
+      android:layout_width="215dp"
+      android:layout_height="38dp"
+      android:ems="10"
+      android:hint="Qt."
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.76"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.461"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnSelect"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Upload"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.544" />
+
+  <ImageView
+      android:id="@+id/imgView"
+      android:layout_width="55dp"
+      android:layout_height="55dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.73"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.55" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

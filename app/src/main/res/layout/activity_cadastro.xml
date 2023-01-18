@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/vector_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_ifamLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IFAM LIBRARY"
+        android:textColor="#0A3B3D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.130" />
+
+    <EditText
+        android:id="@+id/et_usuarioCadastro"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.460" />
+
+    <EditText
+        android:id="@+id/et_nomeCadastro"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nome completo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.380" />
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#0A3B3D"
+        android:text="Cadastrar"
+        android:textColor="#E4E4E4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.760" />
+
+    <EditText
+        android:id="@+id/et_emailCadastro"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.540" />
+
+    <EditText
+        android:id="@+id/et_senhaCadastro"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.620" />
+
+    <CheckBox
+        android:id="@+id/cb_bibliotecarioCadastro"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginBottom="24dp"
+        android:text="Bibliotecario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.720" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
